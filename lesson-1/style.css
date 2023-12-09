@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-1 {
+  background-color: #3182ce;
+  height: 500px;
+}
+
+header {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo {
+  display: inline;
+}
+
+nav {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+}
+
+nav > span {
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.hero {
+  padding-top: 60px;
+}
+
+.hero > div {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div.hero > div > h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+div.hero > div > p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+
+div.hero > div > * {
+  margin-bottom: 20px;
+}
+
+button {
+  all: unset; /* remove all default design */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 1000px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}
+
+div.hero > :first-child {
+  margin-right: 70px;
+}
+
+.primary-button {
+  color: white;
+
+  background: linear-gradient(
+    90deg,
+    #0067f4 -3.33%,
+    #0067f4 17.47%,
+    rgba(43, 219, 220, 0.5) 114.17%
+  );
+}
+
+.secondary-button {
+  background: white;
+  color: #3182ce;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}
